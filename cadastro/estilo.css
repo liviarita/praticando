@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #585858;
+    font: 12pt 'Slabo 27px', serif;
+}
+
+img {
+
+}
+
+#cabecalho {
+    background: black;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 30px;
+    height: 100px;
+    color: white;
+    font-size: 20pt;
+}
+
+.topo {
+    width: 100vw;
+    position: absolute;
+    top: 15px;
+}
+
+.dados {
+    background: #2E2E2E;
+    width: 180px;
+    height: 330px;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    text-align: center;
+}
+
+.img_inicio {
+    width: 150px;
+    margin-top: 70px;
+}
+
+a {
+    font: 16pt 'Josefin Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#principal {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.clique {
+    font-size: 10pt;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#principal1 {
+    background: #A4A4A4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+.botao {
+    font: 10pt 'Josefin Sans', sans-serif;
+    color: white;
+    width: 90px;
+    height: 23px;
+    margin-left: 150px;
+    background: black;
+}
+
+#res_dp, #res_end, #res_fnal {
+    background: #A4A4A4;
+    font: 12pt 'Josefin Sans', sans-serif;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin: 20px auto;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+#foto, #foto2, #foto_cont {
+    width: 150px;
+    padding: 10px;
+}
+
+.caixa {
+    width: 220px;
+}
+
+/*'Tenali Ramakrishna', sans-serif*/
+
+

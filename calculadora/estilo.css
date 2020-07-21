@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #F6CED8;
+}
+
+h1{
+    font:bold 30pt 'Ubuntu', sans-serif;
+    color: #3B0B17;
+    margin: 20px;
+    text-align: center;
+}
+
+#fundo_calc{
+    background: #3B0B17;
+    padding: 20px;
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+}
+
+#tela{
+    background-color: #F6CED8;
+    font-family: 'Ubuntu', sans-serif;
+    color: #3B0B17;
+    height: 30px;
+    width: 250px;
+    margin: 20px auto;
+}
+
+.bot{
+    background: #F6CED8;
+    font-family: 'Ubuntu', sans-serif;
+    color: #3B0B17;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+#botoes{
+    text-align: center;
+}
+
+#limpa{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12pt;
+    background: #3B0B17;
+    border-style: ridge;
+    color:#F6CED8;
+    margin: 20px 640px;
+    padding: 5px 20px;
+}
+
+#resultado {
+    background: #3B0B17;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    color:#F6CED8;
+}

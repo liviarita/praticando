@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
+
+    </head>
+
+    <body>
+
+        <h1>CALCULADORA</h1>
+
+        
+        <form name="calculadora">
+            <div id="fundo_calc">
+                <input id="tela" type="text" name="visor" value=""><br>
+                <div id="botoes">
+                    <input class="bot" type="button" value="7" onclick="botao(value)">
+                    <input class="bot" type="button" value="8" onclick="botao(value)">
+                    <input class="bot" type="button" value="9" onclick="botao(value)">
+                    <input class="bot" type="button" value="/" onclick="botao(value)"><br>
+                    <input class="bot" type="button" value="4" onclick="botao(value)">
+                    <input class="bot" type="button" value="5" onclick="botao(value)">
+                    <input class="bot" type="button" value="6" onclick="botao(value)">
+                    <input class="bot" type="button" value="*" onclick="botao(value)"><br>
+                    <input class="bot" type="button" value="1" onclick="botao(value)">
+                    <input class="bot" type="button" value="2" onclick="botao(value)">
+                    <input class="bot" type="button" value="3" onclick="botao(value)">
+                    <input class="bot" type="button" value="-" onclick="botao(value)"><br>
+                    <input class="bot" type="button" value="0" onclick="botao(value)">
+                    <input class="bot" type="button" value="C" onclick="limpar()">
+                    <input class="bot" type="button" value="=" onclick="calcule()">
+                    <input class="bot" type="button" value="+" onclick="botao(value)"><br>
+                </div>
+            </div>
+
+        </form>
+
+        <input id="limpa" type="button" value="Limpar" onclick="limpar()">
+
+        <div id="resultado">O resultado do seu cálculo é...</div>
+        
+    </body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dados Cadastrais</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Slabo+27px&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
+
+    </head>
+
+    <body>
+        
+        <div id="cabecalho">
+            <h1>ENDEREÇO</h1>
+        </div>
+
+        <div id="principal1">
+            <span>RUA / AVENIDA</span>
+            <input class="caixa" type="text" value="" id="rua"><br><br>
+            <span>NÚMERO</span>
+            <input class="caixa" type="number" value="" id="num"><br><br>
+            <span>BAIRRO</span>
+            <input class="caixa" type=text value="" id="bairro"><br><br>
+            <span>CIDADE</span>
+            <input class="caixa" type="text" value="" id="cidade"><br><br>
+            <span>PAÍS</span>
+            <input class="caixa" type="text" value="" id="pais"><br><br>
+            <input class="botao" type="button" value="RESULTADO" onclick="endereco()"><br><br>
+            <input class="botao" type="button" value="LIMPAR" onclick="limpa_endereco()">
+        </div>
+
+        <div id="res_end">
+            Seu resultado vai aparecer aqui...
+        </div>
+
+        <div id="rodape">
+            <a class="clique" href="index.html">INÍCIO</a>
+            <a class="clique" href="dados01.html">ANTERIOR</a>
+            <a class="clique" href="dados03.html">PRÓXIMO</a>
+        </div>
+        
+        
+    </body>
+
+</html>
